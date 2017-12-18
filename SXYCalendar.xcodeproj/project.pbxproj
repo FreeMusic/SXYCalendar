@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0553E97F1FA719B200ACAC32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553E97E1FA719B200ACAC32 /* main.m */; };
+		0553E9821FA719B200ACAC32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553E9811FA719B200ACAC32 /* AppDelegate.m */; };
+		0553E9881FA719B300ACAC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0553E9861FA719B300ACAC32 /* Main.storyboard */; };
+		0553E98A1FA719B300ACAC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0553E9891FA719B300ACAC32 /* Assets.xcassets */; };
+		0553E98D1FA719B300ACAC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0553E98B1FA719B300ACAC32 /* LaunchScreen.storyboard */; };
+		0553E9981FA719B300ACAC32 /* SXYCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553E9971FA719B300ACAC32 /* SXYCalendarTests.m */; };
+		0553E9A31FA719B300ACAC32 /* SXYCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553E9A21FA719B300ACAC32 /* SXYCalendarUITests.m */; };
+		0553E9BA1FA720D900ACAC32 /* SXYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553E9B91FA720D900ACAC32 /* SXYCalendarView.m */; };
+		0553E9BD1FA7224900ACAC32 /* SXYCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0553E9BC1FA7224900ACAC32 /* SXYCalendarVC.m */; };
+		05A96EAA1FAC3B8D0005533E /* SXYMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A96EA91FAC3B8D0005533E /* SXYMonthView.m */; };
+		05A96EAD1FAC3BDD0005533E /* SXYDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A96EAC1FAC3BDD0005533E /* SXYDayCell.m */; };
+		05A96EB01FAC3C260005533E /* SXYDateToolsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A96EAF1FAC3C260005533E /* SXYDateToolsObject.m */; };
+		05A96EB41FAC56EE0005533E /* SXYCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A96EB21FAC56EE0005533E /* SXYCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0553E9941FA719B300ACAC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0553E9721FA719B100ACAC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0553E9791FA719B200ACAC32;
+			remoteInfo = SXYCalendar;
+		};
+		0553E99F1FA719B300ACAC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0553E9721FA719B100ACAC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0553E9791FA719B200ACAC32;
+			remoteInfo = SXYCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0553E97A1FA719B200ACAC32 /* SXYCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXYCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0553E97E1FA719B200ACAC32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0553E9801FA719B200ACAC32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		0553E9811FA719B200ACAC32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		0553E9871FA719B300ACAC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0553E9891FA719B300ACAC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		0553E98C1FA719B300ACAC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0553E98E1FA719B300ACAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0553E9931FA719B300ACAC32 /* SXYCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXYCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0553E9971FA719B300ACAC32 /* SXYCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXYCalendarTests.m; sourceTree = "<group>"; };
+		0553E9991FA719B300ACAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0553E99E1FA719B300ACAC32 /* SXYCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXYCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0553E9A21FA719B300ACAC32 /* SXYCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXYCalendarUITests.m; sourceTree = "<group>"; };
+		0553E9A41FA719B300ACAC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0553E9B81FA720D900ACAC32 /* SXYCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXYCalendarView.h; sourceTree = "<group>"; };
+		0553E9B91FA720D900ACAC32 /* SXYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXYCalendarView.m; sourceTree = "<group>"; };
+		0553E9BB1FA7224900ACAC32 /* SXYCalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SXYCalendarVC.h; path = SXYCalendar/SXYCalendarVC.h; sourceTree = SOURCE_ROOT; };
+		0553E9BC1FA7224900ACAC32 /* SXYCalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SXYCalendarVC.m; path = SXYCalendar/SXYCalendarVC.m; sourceTree = SOURCE_ROOT; };
+		05A96EA81FAC3B8D0005533E /* SXYMonthView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXYMonthView.h; sourceTree = "<group>"; };
+		05A96EA91FAC3B8D0005533E /* SXYMonthView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXYMonthView.m; sourceTree = "<group>"; };
+		05A96EAB1FAC3BDD0005533E /* SXYDayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXYDayCell.h; sourceTree = "<group>"; };
+		05A96EAC1FAC3BDD0005533E /* SXYDayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXYDayCell.m; sourceTree = "<group>"; };
+		05A96EAE1FAC3C260005533E /* SXYDateToolsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXYDateToolsObject.h; sourceTree = "<group>"; };
+		05A96EAF1FAC3C260005533E /* SXYDateToolsObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXYDateToolsObject.m; sourceTree = "<group>"; };
+		05A96EB21FAC56EE0005533E /* SXYCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXYCircle.m; sourceTree = "<group>"; };
+		05A96EB31FAC56EE0005533E /* SXYCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXYCircle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0553E9771FA719B200ACAC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0553E9901FA719B300ACAC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0553E99B1FA719B300ACAC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0553E9711FA719B100ACAC32 = {
+			isa = PBXGroup;
+			children = (
+				0553E97C1FA719B200ACAC32 /* SXYCalendar */,
+				0553E9961FA719B300ACAC32 /* SXYCalendarTests */,
+				0553E9A11FA719B300ACAC32 /* SXYCalendarUITests */,
+				0553E97B1FA719B200ACAC32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0553E97B1FA719B200ACAC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0553E97A1FA719B200ACAC32 /* SXYCalendar.app */,
+				0553E9931FA719B300ACAC32 /* SXYCalendarTests.xctest */,
+				0553E99E1FA719B300ACAC32 /* SXYCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0553E97C1FA719B200ACAC32 /* SXYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				05A96EB11FAC56C10005533E /* SXYCircle */,
+				0553E9BE1FA7227700ACAC32 /* SXYCalendarVC */,
+				0553E9B51FA7208B00ACAC32 /* Source */,
+				0553E9B61FA7208B00ACAC32 /* SXYCalendarView */,
+				0553E9B71FA7208B00ACAC32 /* Others */,
+				0553E97D1FA719B200ACAC32 /* Supporting Files */,
+			);
+			path = SXYCalendar;
+			sourceTree = "<group>";
+		};
+		0553E97D1FA719B200ACAC32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0553E97E1FA719B200ACAC32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0553E9961FA719B300ACAC32 /* SXYCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0553E9971FA719B300ACAC32 /* SXYCalendarTests.m */,
+				0553E9991FA719B300ACAC32 /* Info.plist */,
+			);
+			path = SXYCalendarTests;
+			sourceTree = "<group>";
+		};
+		0553E9A11FA719B300ACAC32 /* SXYCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0553E9A21FA719B300ACAC32 /* SXYCalendarUITests.m */,
+				0553E9A41FA719B300ACAC32 /* Info.plist */,
+			);
+			path = SXYCalendarUITests;
+			sourceTree = "<group>";
+		};
+		0553E9B51FA7208B00ACAC32 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0553E9B61FA7208B00ACAC32 /* SXYCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				0553E9B81FA720D900ACAC32 /* SXYCalendarView.h */,
+				0553E9B91FA720D900ACAC32 /* SXYCalendarView.m */,
+				05A96EA81FAC3B8D0005533E /* SXYMonthView.h */,
+				05A96EA91FAC3B8D0005533E /* SXYMonthView.m */,
+				05A96EAB1FAC3BDD0005533E /* SXYDayCell.h */,
+				05A96EAC1FAC3BDD0005533E /* SXYDayCell.m */,
+				05A96EAE1FAC3C260005533E /* SXYDateToolsObject.h */,
+				05A96EAF1FAC3C260005533E /* SXYDateToolsObject.m */,
+			);
+			path = SXYCalendarView;
+			sourceTree = "<group>";
+		};
+		0553E9B71FA7208B00ACAC32 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0553E9861FA719B300ACAC32 /* Main.storyboard */,
+				0553E9891FA719B300ACAC32 /* Assets.xcassets */,
+				0553E98B1FA719B300ACAC32 /* LaunchScreen.storyboard */,
+				0553E98E1FA719B300ACAC32 /* Info.plist */,
+				0553E9801FA719B200ACAC32 /* AppDelegate.h */,
+				0553E9811FA719B200ACAC32 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		0553E9BE1FA7227700ACAC32 /* SXYCalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				0553E9BB1FA7224900ACAC32 /* SXYCalendarVC.h */,
+				0553E9BC1FA7224900ACAC32 /* SXYCalendarVC.m */,
+			);
+			path = SXYCalendarVC;
+			sourceTree = "<group>";
+		};
+		05A96EB11FAC56C10005533E /* SXYCircle */ = {
+			isa = PBXGroup;
+			children = (
+				05A96EB31FAC56EE0005533E /* SXYCircle.h */,
+				05A96EB21FAC56EE0005533E /* SXYCircle.m */,
+			);
+			path = SXYCircle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0553E9791FA719B200ACAC32 /* SXYCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0553E9A71FA719B300ACAC32 /* Build configuration list for PBXNativeTarget "SXYCalendar" */;
+			buildPhases = (
+				0553E9761FA719B200ACAC32 /* Sources */,
+				0553E9771FA719B200ACAC32 /* Frameworks */,
+				0553E9781FA719B200ACAC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXYCalendar;
+			productName = SXYCalendar;
+			productReference = 0553E97A1FA719B200ACAC32 /* SXYCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0553E9921FA719B300ACAC32 /* SXYCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0553E9AA1FA719B300ACAC32 /* Build configuration list for PBXNativeTarget "SXYCalendarTests" */;
+			buildPhases = (
+				0553E98F1FA719B300ACAC32 /* Sources */,
+				0553E9901FA719B300ACAC32 /* Frameworks */,
+				0553E9911FA719B300ACAC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0553E9951FA719B300ACAC32 /* PBXTargetDependency */,
+			);
+			name = SXYCalendarTests;
+			productName = SXYCalendarTests;
+			productReference = 0553E9931FA719B300ACAC32 /* SXYCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0553E99D1FA719B300ACAC32 /* SXYCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0553E9AD1FA719B300ACAC32 /* Build configuration list for PBXNativeTarget "SXYCalendarUITests" */;
+			buildPhases = (
+				0553E99A1FA719B300ACAC32 /* Sources */,
+				0553E99B1FA719B300ACAC32 /* Frameworks */,
+				0553E99C1FA719B300ACAC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0553E9A01FA719B300ACAC32 /* PBXTargetDependency */,
+			);
+			name = SXYCalendarUITests;
+			productName = SXYCalendarUITests;
+			productReference = 0553E99E1FA719B300ACAC32 /* SXYCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0553E9721FA719B100ACAC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yunfu;
+				TargetAttributes = {
+					0553E9791FA719B200ACAC32 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					0553E9921FA719B300ACAC32 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0553E9791FA719B200ACAC32;
+					};
+					0553E99D1FA719B300ACAC32 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0553E9791FA719B200ACAC32;
+					};
+				};
+			};
+			buildConfigurationList = 0553E9751FA719B100ACAC32 /* Build configuration list for PBXProject "SXYCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0553E9711FA719B100ACAC32;
+			productRefGroup = 0553E97B1FA719B200ACAC32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0553E9791FA719B200ACAC32 /* SXYCalendar */,
+				0553E9921FA719B300ACAC32 /* SXYCalendarTests */,
+				0553E99D1FA719B300ACAC32 /* SXYCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0553E9781FA719B200ACAC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0553E98D1FA719B300ACAC32 /* LaunchScreen.storyboard in Resources */,
+				0553E98A1FA719B300ACAC32 /* Assets.xcassets in Resources */,
+				0553E9881FA719B300ACAC32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0553E9911FA719B300ACAC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0553E99C1FA719B300ACAC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0553E9761FA719B200ACAC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A96EB01FAC3C260005533E /* SXYDateToolsObject.m in Sources */,
+				0553E9BA1FA720D900ACAC32 /* SXYCalendarView.m in Sources */,
+				05A96EAA1FAC3B8D0005533E /* SXYMonthView.m in Sources */,
+				0553E9BD1FA7224900ACAC32 /* SXYCalendarVC.m in Sources */,
+				05A96EB41FAC56EE0005533E /* SXYCircle.m in Sources */,
+				0553E9821FA719B200ACAC32 /* AppDelegate.m in Sources */,
+				0553E97F1FA719B200ACAC32 /* main.m in Sources */,
+				05A96EAD1FAC3BDD0005533E /* SXYDayCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0553E98F1FA719B300ACAC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0553E9981FA719B300ACAC32 /* SXYCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0553E99A1FA719B300ACAC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0553E9A31FA719B300ACAC32 /* SXYCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0553E9951FA719B300ACAC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0553E9791FA719B200ACAC32 /* SXYCalendar */;
+			targetProxy = 0553E9941FA719B300ACAC32 /* PBXContainerItemProxy */;
+		};
+		0553E9A01FA719B300ACAC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0553E9791FA719B200ACAC32 /* SXYCalendar */;
+			targetProxy = 0553E99F1FA719B300ACAC32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0553E9861FA719B300ACAC32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0553E9871FA719B300ACAC32 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0553E98B1FA719B300ACAC32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0553E98C1FA719B300ACAC32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0553E9A51FA719B300ACAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0553E9A61FA719B300ACAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0553E9A81FA719B300ACAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXYCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.SXYCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0553E9A91FA719B300ACAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXYCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.SXYCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0553E9AB1FA719B300ACAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SXYCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.SXYCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SXYCalendar.app/SXYCalendar";
+			};
+			name = Debug;
+		};
+		0553E9AC1FA719B300ACAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SXYCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.SXYCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SXYCalendar.app/SXYCalendar";
+			};
+			name = Release;
+		};
+		0553E9AE1FA719B300ACAC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SXYCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.SXYCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SXYCalendar;
+			};
+			name = Debug;
+		};
+		0553E9AF1FA719B300ACAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SXYCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunfucloud.SXYCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SXYCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0553E9751FA719B100ACAC32 /* Build configuration list for PBXProject "SXYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0553E9A51FA719B300ACAC32 /* Debug */,
+				0553E9A61FA719B300ACAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0553E9A71FA719B300ACAC32 /* Build configuration list for PBXNativeTarget "SXYCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0553E9A81FA719B300ACAC32 /* Debug */,
+				0553E9A91FA719B300ACAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0553E9AA1FA719B300ACAC32 /* Build configuration list for PBXNativeTarget "SXYCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0553E9AB1FA719B300ACAC32 /* Debug */,
+				0553E9AC1FA719B300ACAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0553E9AD1FA719B300ACAC32 /* Build configuration list for PBXNativeTarget "SXYCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0553E9AE1FA719B300ACAC32 /* Debug */,
+				0553E9AF1FA719B300ACAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0553E9721FA719B100ACAC32 /* Project object */;
+}
